@@ -463,7 +463,7 @@ msgstr "powered by {name} basierend auf <a {a_attr}>pretix</a>"
 
 #: pretix/base/context.py:52
 #, python-format
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
+msgid "<a %(a_attr)s>ticketing powered by Arifpay</a>"
 msgstr "<a %(a_attr)s>Event-Ticketing-Software von pretix</a>"
 
 #: pretix/base/context.py:61
@@ -29476,7 +29476,7 @@ msgstr "Kosovo"
 #~ "für ein gutes Scanergebnis benötigt wird."
 
 #~ msgctxt "widget"
-#~ msgid "event ticketing powered by pretix"
+#~ msgid "event ticketing powered by Arifpay"
 #~ msgstr "Event-Ticketing-Software von pretix"
 
 #~ msgid "Order status:"

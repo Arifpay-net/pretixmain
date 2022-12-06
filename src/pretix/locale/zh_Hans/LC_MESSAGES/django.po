@@ -472,8 +472,8 @@ msgstr "由<a %(a_attr)s>pretix</a>提供支持"
 
 #: pretix/base/context.py:52
 #, fuzzy, python-format
-#| msgid "<a %(a_attr)s>event ticketing powered by pretix</a>"
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
+#| msgid "<a %(a_attr)s>event ticketing powered by Arifpay</a>"
+msgid "<a %(a_attr)s>ticketing powered by Arifpay</a>"
 msgstr "<a %(a_attr)s>由Pretix提供的活动票务</a>"
 
 #: pretix/base/context.py:61
@@ -29798,9 +29798,9 @@ msgstr ""
 #~ msgstr "最终的二维码会稍微小一些，因为正确扫描需要一些空白。"
 
 #, fuzzy
-#~| msgid "<a %(a_attr)s>event ticketing powered by pretix</a>"
+#~| msgid "<a %(a_attr)s>event ticketing powered by Arifpay</a>"
 #~ msgctxt "widget"
-#~ msgid "event ticketing powered by pretix"
+#~ msgid "event ticketing powered by Arifpay"
 #~ msgstr "<a %(a_attr)s>由Pretix提供的活动票务</a>"
 
 #, fuzzy

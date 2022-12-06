@@ -489,7 +489,7 @@ msgstr "powered by {name} bazat pe <a {a_attr}>pretix</a>"
 
 #: pretix/base/context.py:52
 #, python-format
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
+msgid "<a %(a_attr)s>ticketing powered by Arifpay</a>"
 msgstr "<a %(a_attr)s>soluție oferită de pretix</a>"
 
 #: pretix/base/context.py:61

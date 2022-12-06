@@ -468,7 +468,7 @@ msgstr "Приводиться до дії з {name} на базі <a {a_attr}>p
 
 #: pretix/base/context.py:52
 #, python-format
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
+msgid "<a %(a_attr)s>ticketing powered by Arifpay</a>"
 msgstr "<a %(a_attr)s> покупка квитків через pretix</a>"
 
 #: pretix/base/context.py:61

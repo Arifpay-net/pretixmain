@@ -487,8 +487,8 @@ msgstr "hecho posible por {name} basado en <a {a_attr}>pretix</a>"
 
 #: pretix/base/context.py:52
 #, fuzzy, python-format
-#| msgid "<a %(a_attr)s>event ticketing powered by pretix</a>"
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
+#| msgid "<a %(a_attr)s>event ticketing powered by Arifpay</a>"
+msgid "<a %(a_attr)s>ticketing powered by Arifpay</a>"
 msgstr "<a %(a_attr)s>ticketing de eventos impulsado por pretix </a>"
 
 #: pretix/base/context.py:61
@@ -31103,9 +31103,9 @@ msgstr ""
 #~ "espacio en blanco para un escaneo adecuado."
 
 #, fuzzy
-#~| msgid "<a %(a_attr)s>event ticketing powered by pretix</a>"
+#~| msgid "<a %(a_attr)s>event ticketing powered by Arifpay</a>"
 #~ msgctxt "widget"
-#~ msgid "event ticketing powered by pretix"
+#~ msgid "event ticketing powered by Arifpay"
 #~ msgstr "<a %(a_attr)s>ticketing de eventos impulsado por pretix </a>"
 
 #, fuzzy

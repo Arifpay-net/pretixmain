@@ -474,7 +474,7 @@ msgstr "généré par <a %(a_attr)s>pretix</a>"
 #: pretix/base/context.py:52
 #, fuzzy, python-format
 #| msgid "powered by <a %(a_attr)s>pretix</a>"
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
+msgid "<a %(a_attr)s>ticketing powered by Arifpay</a>"
 msgstr "généré par <a %(a_attr)s>pretix</a>"
 
 #: pretix/base/context.py:61

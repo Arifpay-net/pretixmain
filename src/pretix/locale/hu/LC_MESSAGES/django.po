@@ -465,7 +465,7 @@ msgstr ""
 
 #: pretix/base/context.py:52
 #, python-format
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
+msgid "<a %(a_attr)s>ticketing powered by Arifpay</a>"
 msgstr ""
 
 #: pretix/base/context.py:61

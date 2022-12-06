@@ -486,9 +486,9 @@ msgstr "на базе <a %(a_attr)s>pretix</a>"
 
 #: pretix/base/context.py:52
 #, fuzzy, python-format
-#| msgid "<a %(a_attr)s>event ticketing powered by pretix</a>"
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
-msgstr "<a %(a_attr)s>event ticketing powered by pretix</a>"
+#| msgid "<a %(a_attr)s>event ticketing powered by Arifpay</a>"
+msgid "<a %(a_attr)s>ticketing powered by Arifpay</a>"
+msgstr "<a %(a_attr)s>event ticketing powered by Arifpay</a>"
 
 #: pretix/base/context.py:61
 msgid "source code"
@@ -28458,10 +28458,10 @@ msgstr ""
 #~ msgstr "Организатор"
 
 #, fuzzy
-#~| msgid "<a %(a_attr)s>event ticketing powered by pretix</a>"
+#~| msgid "<a %(a_attr)s>event ticketing powered by Arifpay</a>"
 #~ msgctxt "widget"
-#~ msgid "event ticketing powered by pretix"
-#~ msgstr "<a %(a_attr)s>event ticketing powered by pretix</a>"
+#~ msgid "event ticketing powered by Arifpay"
+#~ msgstr "<a %(a_attr)s>event ticketing powered by Arifpay</a>"
 
 #, fuzzy
 #~| msgid "Order date:"

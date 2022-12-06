@@ -470,7 +470,7 @@ msgstr "Pamatojoties uz {name} based on <a 2{a_attr}>pretix</a>"
 
 #: pretix/base/context.py:52
 #, python-format
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
+msgid "<a %(a_attr)s>ticketing powered by Arifpay</a>"
 msgstr "<a %(a_attr)s>biļešu sistēmu nodrošina pretix</a>"
 
 #: pretix/base/context.py:61
@@ -27280,10 +27280,10 @@ msgstr "Kosovo"
 #~ msgstr "Organizators"
 
 #, fuzzy
-#~| msgid "<a %(a_attr)s>event ticketing powered by pretix</a>"
+#~| msgid "<a %(a_attr)s>event ticketing powered by Arifpay</a>"
 #~ msgctxt "widget"
-#~ msgid "event ticketing powered by pretix"
-#~ msgstr "<a %(a_attr)s>event ticketing powered by pretix</a>"
+#~ msgid "event ticketing powered by Arifpay"
+#~ msgstr "<a %(a_attr)s>event ticketing powered by Arifpay</a>"
 
 #, fuzzy
 #~| msgid "Order date:"

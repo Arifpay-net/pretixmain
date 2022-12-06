@@ -149,7 +149,7 @@ class WidgetCartTest(CartTestMixin, TestCase):
         data = json.loads(response.content.decode())
         assert data == {
             "error": "Tickets for this event cannot be purchased on this sales channel.",
-            'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by pretix</a>',
+            'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by Arifpay</a>',
         }
         self.assertEqual(response.status_code, 200)
         response = self.client.post('/%s/%s/w/aaaaaaaaaaaaaaab/cart/add' % (self.orga.slug, self.event.slug), {
@@ -172,7 +172,7 @@ class WidgetCartTest(CartTestMixin, TestCase):
             "waiting_list_enabled": False,
             "error": None,
             "has_seating_plan": False,
-            'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by pretix</a>',
+            'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by Arifpay</a>',
             "items_by_category": [
                 {
                     "items": [
@@ -351,7 +351,7 @@ class WidgetCartTest(CartTestMixin, TestCase):
             "vouchers_exist": True,
             "waiting_list_enabled": False,
             "error": None,
-            'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by pretix</a>',
+            'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by Arifpay</a>',
             "items_by_category": [
                 {
                     "items": [
@@ -403,7 +403,7 @@ class WidgetCartTest(CartTestMixin, TestCase):
             "has_seating_plan": False,
             "waiting_list_enabled": False,
             "error": None,
-            'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by pretix</a>',
+            'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by Arifpay</a>',
             "items_by_category": [
                 {
                     "items": [
@@ -465,7 +465,7 @@ class WidgetCartTest(CartTestMixin, TestCase):
             "date_range": f"Dec. 26, {self.event.date_from.year} 00:00",
             "frontpage_text": "",
             "currency": "EUR",
-            'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by pretix</a>',
+            'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by Arifpay</a>',
             "show_variations_expanded": False,
             "display_net_prices": False,
             "has_seating_plan": False,
@@ -563,7 +563,7 @@ class WidgetCartTest(CartTestMixin, TestCase):
                 'list_type': 'list',
                 'name': '30C3',
                 'frontpage_text': '',
-                'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by pretix</a>',
+                'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by Arifpay</a>',
                 'has_more_events': False,
                 'events': [
                     {'name': 'Present', 'date_range': 'Jan. 1, 2019 11:00', 'availability': {'color': 'none', 'text': '', 'reason': 'unknown'},
@@ -593,7 +593,7 @@ class WidgetCartTest(CartTestMixin, TestCase):
                 'date': '2019-01-01',
                 'name': '30C3',
                 'frontpage_text': '',
-                'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by pretix</a>',
+                'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by Arifpay</a>',
                 'weeks': [
                     [
                         None,
@@ -669,7 +669,7 @@ class WidgetCartTest(CartTestMixin, TestCase):
                 'name': '30C3',
                 'frontpage_text': '',
                 'week': [2019, 1],
-                'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by pretix</a>',
+                'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by Arifpay</a>',
                 'days': [
                     {'day_formatted': 'Mon, Dec 31st', 'date': '2018-12-31', 'events': [], 'today': False},
                     {'day_formatted': 'Tue, Jan 1st', 'date': '2019-01-01', 'events': [
@@ -710,7 +710,7 @@ class WidgetCartTest(CartTestMixin, TestCase):
             response = self.client.get('/%s/widget/product_list' % (self.orga.slug,))
             data = json.loads(response.content.decode())
             assert data == {
-                'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by pretix</a>',
+                'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by Arifpay</a>',
                 'events': [
                     {'availability': {'color': 'none', 'text': 'Event series'},
                      'date_range': 'Dec. 29, 2018 – Jan. 4, 2019',
@@ -754,7 +754,7 @@ class WidgetCartTest(CartTestMixin, TestCase):
             assert data == {
                 'date': '2019-01-01',
                 'list_type': 'calendar',
-                'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by pretix</a>',
+                'poweredby': '<a href="https://pretix.eu" target="_blank" rel="noopener">ticketing powered by Arifpay</a>',
                 'weeks': [
                     [None,
                      {'date': '2019-01-01',

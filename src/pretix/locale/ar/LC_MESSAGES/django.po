@@ -482,7 +482,7 @@ msgstr "مدعوم من {name} على أساس <a {a_attr}>pretix</a>"
 
 #: pretix/base/context.py:52
 #, python-format
-msgid "<a %(a_attr)s>ticketing powered by pretix</a>"
+msgid "<a %(a_attr)s>ticketing powered by Arifpay</a>"
 msgstr "<a %(a_attr)s> التذاكر مدعومة من قبل pretix </a>"
 
 #: pretix/base/context.py:61
@@ -29467,7 +29467,7 @@ msgstr "كوسوفو"
 #~ "المسافات لمسح السليم."
 
 #~ msgctxt "widget"
-#~ msgid "event ticketing powered by pretix"
+#~ msgid "event ticketing powered by Arifpay"
 #~ msgstr "هذا المتجر يعمل ب pretix"
 
 #, fuzzy
