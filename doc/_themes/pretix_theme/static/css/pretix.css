@@ -4302,7 +4302,7 @@ input[type="radio"][disabled], input[type="checkbox"][disabled] {
 }
 
 a {
-    color: #8E44B3;
+    color: #3CA32B;
     text-decoration: none;
     cursor: pointer
 }
@@ -5118,7 +5118,7 @@ div[class^='highlight'] pre {
     display: block;
     position: relative;
     font-size: 90%;
-    color: #8E44B3
+    color: #3CA32B
 }
 
 .wy-menu-vertical a:hover {

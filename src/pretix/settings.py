@@ -168,7 +168,7 @@ PRETIX_ADMIN_AUDIT_COMMENTS = config.getboolean('pretix', 'audit_comments', fall
 PRETIX_OBLIGATORY_2FA = config.getboolean('pretix', 'obligatory_2fa', fallback=False)
 PRETIX_SESSION_TIMEOUT_RELATIVE = 3600 * 3
 PRETIX_SESSION_TIMEOUT_ABSOLUTE = 3600 * 12
-PRETIX_PRIMARY_COLOR = '#8E44B3'
+PRETIX_PRIMARY_COLOR = '#3CA32B'
 
 SITE_URL = config.get('pretix', 'url', fallback='http://localhost:8000')
 if SITE_URL.endswith('/'):
